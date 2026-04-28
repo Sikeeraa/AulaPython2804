@@ -1,0 +1,35 @@
+for i in range (51):
+    print (i)
+
+for i in range (200, 99, -1):
+    print(i)
+
+for i in range(1, 101):
+    if i % 2 != 0:
+        print(i)
+
+import random
+
+for i in range(20):
+    numero = random.randint(1, 50)
+    print(numero)
+
+import math
+
+for i in range(15):
+    numero = float(input('Digite um número: '))
+    raiz = math.sqrt(numero)
+    print(f'Raiz quadrada de {numero} = {raiz}')
+
+numeros = []
+
+for i in range(10):
+    n = int(input('Digite um número inteiro: '))
+    numeros.append(n)
+
+maior = max(numeros)
+menor = min(numeros)
+
+print(f'Maior número: {maior}')
+print(f'Menor número: {menor}')
+
